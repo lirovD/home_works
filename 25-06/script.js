@@ -11,5 +11,5 @@ console.log(filteredNumbers);
 //         состоящий из квадратов этих чисел.
 
 const numbers2 = [2,3,4,5,6,7,8,9,10];
-const mappedNumbers = numbers2.map(item => item * 2);
-console.log(mappedNumbers);
+const mappedNumbers = numbers2.map(item => item * item);
+console.log(mappedNumbers
