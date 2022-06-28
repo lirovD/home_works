@@ -34,4 +34,4 @@ while (number !== 999) {
     number = parseFloat(prompt('Введите число'));
 }
 
-alert(('Количество чисел - ') + amount + ' ;Сумма = ');
+alert(`кол=во чисел - ${amount}; сумма = ${sum}`);
