@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card {
+    max-width: 300px;
+    border: 2px solid #b1b2b4;
+    padding: 8px;
+}
+
+.product-img img {
+    width: 100%;
+    padding: 4px;
+}
+
+.product-btn{
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    color: white;
+    background: black;
+}
+.product-btn:hover {
+    color: black;
+    background: transparent;
+    box-shadow:none;
+}
